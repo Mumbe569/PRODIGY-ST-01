@@ -1,0 +1,127 @@
+# Test Cases for Simple Calculator Application
+
+## Test Case 1: Addition of Positive Numbers
+**Test Case ID**: TC_ADD_01  
+**Test Description**: Verify the calculator correctly adds two positive numbers.  
+**Preconditions**: Calculator application is open and ready for input.  
+**Test Steps**:  
+1. Enter the first positive number (e.g., `5`).  
+2. Press the `+` button.  
+3. Enter the second positive number (e.g., `3`).  
+4. Press the `=` button.  
+**Expected Results**: The calculator displays the result as `8`.
+
+---
+
+## Test Case 2: Subtraction of Negative Numbers
+**Test Case ID**: TC_SUB_01  
+**Test Description**: Verify the calculator correctly subtracts one negative number from another.  
+**Preconditions**: Calculator application is open and ready for input.  
+**Test Steps**:  
+1. Enter the first negative number (e.g., `-5`).  
+2. Press the `-` button.  
+3. Enter the second negative number (e.g., `-3`).  
+4. Press the `=` button.  
+**Expected Results**: The calculator displays the result as `-2`.
+
+---
+
+## Test Case 3: Multiplication with Decimals
+**Test Case ID**: TC_MUL_01  
+**Test Description**: Verify the calculator correctly multiplies two decimal numbers.  
+**Preconditions**: Calculator application is open and ready for input.  
+**Test Steps**:  
+1. Enter the first decimal number (e.g., `2.5`).  
+2. Press the `*` button.  
+3. Enter the second decimal number (e.g., `1.2`).  
+4. Press the `=` button.  
+**Expected Results**: The calculator displays the result as `3.0`.
+
+---
+
+## Test Case 4: Division by Zero
+**Test Case ID**: TC_DIV_01  
+**Test Description**: Verify the calculator handles division by zero gracefully.  
+**Preconditions**: Calculator application is open and ready for input.  
+**Test Steps**:  
+1. Enter a number (e.g., `10`).  
+2. Press the `/` button.  
+3. Enter `0`.  
+4. Press the `=` button.  
+**Expected Results**: The calculator displays an error message (e.g., "Cannot divide by zero").
+
+---
+
+## Test Case 5: BODMAS Rule Application
+**Test Case ID**: TC_BODMAS_01  
+**Test Description**: Verify the calculator correctly applies the BODMAS rule.  
+**Preconditions**: Calculator application is open and ready for input.  
+**Test Steps**:  
+1. Enter the expression `2 + 3 * 4`.  
+2. Press the `=` button.  
+**Expected Results**: The calculator displays the result as `14` (multiplication is performed before addition).
+
+---
+
+## Test Case 6: Handling Non-Numeric Characters
+**Test Case ID**: TC_INVALID_01  
+**Test Description**: Verify the calculator handles non-numeric input.  
+**Preconditions**: Calculator application is open and ready for input.  
+**Test Steps**:  
+1. Enter a non-numeric character (e.g., `a`).  
+2. Press any operation button (e.g., `+`).  
+3. Enter another non-numeric character (e.g., `b`).  
+4. Press the `=` button.  
+**Expected Results**: The calculator displays an error message (e.g., "Invalid input").
+
+---
+
+## Test Case 7: Large Numbers Multiplication
+**Test Case ID**: TC_MUL_02  
+**Test Description**: Verify the calculator correctly multiplies two large numbers.  
+**Preconditions**: Calculator application is open and ready for input.  
+**Test Steps**:  
+1. Enter the first large number (e.g., `123456`).  
+2. Press the `*` button.  
+3. Enter the second large number (e.g., `98765`).  
+4. Press the `=` button.  
+**Expected Results**: The calculator displays the correct result (e.g., `12193131840`).
+
+---
+
+## Test Case 8: Zero Addition
+**Test Case ID**: TC_ADD_02  
+**Test Description**: Verify the calculator correctly adds a number to zero.  
+**Preconditions**: Calculator application is open and ready for input.  
+**Test Steps**:  
+1. Enter a number (e.g., `25`).  
+2. Press the `+` button.  
+3. Enter `0`.  
+4. Press the `=` button.  
+**Expected Results**: The calculator displays the result as `25`.
+
+---
+
+## Test Case 9: Edge Case for Division
+**Test Case ID**: TC_DIV_02  
+**Test Description**: Verify the calculator performs division with precision when the result is a recurring decimal.  
+**Preconditions**: Calculator application is open and ready for input.  
+**Test Steps**:  
+1. Enter the dividend (e.g., `10`).  
+2. Press the `/` button.  
+3. Enter the divisor (e.g., `3`).  
+4. Press the `=` button.  
+**Expected Results**: The calculator displays the result as `3.333...`.
+
+---
+
+## Test Case 10: Negative and Positive Multiplication
+**Test Case ID**: TC_MUL_03  
+**Test Description**: Verify the calculator correctly multiplies a negative number with a positive number.  
+**Preconditions**: Calculator application is open and ready for input.  
+**Test Steps**:  
+1. Enter the negative number (e.g., `-7`).  
+2. Press the `*` button.  
+3. Enter the positive number (e.g., `8`).  
+4. Press the `=` button.  
+**Expected Results**: The calculator displays the result as `-56`.
