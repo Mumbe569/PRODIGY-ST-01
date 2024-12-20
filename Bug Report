@@ -1,0 +1,21 @@
+**Bug ID**: BUG_TC_SUB_01  
+**Summary**: Calculator performs incorrect subtraction for negative numbers.  
+
+**Steps to Reproduce**:  
+1. Open the calculator app on Chrome browser v131.0.  
+2. Enter `-5`.  
+3. Press the `-` button.  
+4. Enter `-3`.  
+5. Press the `=` button.  
+
+**Expected Result**: The calculator should display `-2`.  
+**Actual Result**: The calculator displayed `-8`.  
+
+**Environment**:  
+- Browser: Chrome v131.0  
+- Operating System: Windows 10  
+
+**Additional Notes**: This issue affects all subtraction operations involving negative numbers.
+
+
+
